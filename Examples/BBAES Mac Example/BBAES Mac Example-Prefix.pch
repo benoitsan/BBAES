@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'BBAES Mac Example' target in the 'BBAES Mac Example' project
+//
+
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+#endif
