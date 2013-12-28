@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		1419667A169100B4008F58F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14196679169100B4008F58F7 /* Foundation.framework */; };
 		1419667D169100B4008F58F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1419667C169100B4008F58F7 /* main.m */; };
-		1419668D16910109008F58F7 /* BBAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 1419668C16910109008F58F7 /* BBAES.m */; };
 		1419669816910440008F58F7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1419669716910440008F58F7 /* Security.framework */; };
+		149577B6186F098B00C62EBC /* libBBAES.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 149577B5186F098B00C62EBC /* libBBAES.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,9 +30,8 @@
 		14196679169100B4008F58F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1419667C169100B4008F58F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1419667F169100B4008F58F7 /* BBAES Mac Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BBAES Mac Example-Prefix.pch"; sourceTree = "<group>"; };
-		1419668B16910109008F58F7 /* BBAES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBAES.h; path = ../../BBAES/BBAES.h; sourceTree = "<group>"; };
-		1419668C16910109008F58F7 /* BBAES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBAES.m; path = ../../BBAES/BBAES.m; sourceTree = "<group>"; };
 		1419669716910440008F58F7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		149577B5186F098B00C62EBC /* libBBAES.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBBAES.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +41,7 @@
 			files = (
 				1419669816910440008F58F7 /* Security.framework in Frameworks */,
 				1419667A169100B4008F58F7 /* Foundation.framework in Frameworks */,
+				149577B6186F098B00C62EBC /* libBBAES.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +68,7 @@
 		14196678169100B4008F58F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				149577B5186F098B00C62EBC /* libBBAES.a */,
 				1419669716910440008F58F7 /* Security.framework */,
 				14196679169100B4008F58F7 /* Foundation.framework */,
 			);
@@ -78,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				1419667C169100B4008F58F7 /* main.m */,
-				1419668B16910109008F58F7 /* BBAES.h */,
-				1419668C16910109008F58F7 /* BBAES.m */,
 				1419667E169100B4008F58F7 /* Supporting Files */,
 			);
 			path = "BBAES Mac Example";
@@ -145,7 +144,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1419667D169100B4008F58F7 /* main.m in Sources */,
-				1419668D16910109008F58F7 /* BBAES.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,8 +174,15 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode51-DP2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"$(BUILT_PRODUCTS_DIR)",
+					"$(OBJROOT)/UninstalledProducts",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -200,7 +205,14 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode51-DP2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"$(BUILT_PRODUCTS_DIR)",
+					"$(OBJROOT)/UninstalledProducts",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -210,6 +222,10 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BBAES Mac Example/BBAES Mac Example-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/BBAES-fwfxsadrntxrdbasiutcpwofudlq/Build/Products/Debug",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -219,6 +235,10 @@
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BBAES Mac Example/BBAES Mac Example-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/BBAES-fwfxsadrntxrdbasiutcpwofudlq/Build/Products/Debug",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BBAES.h"
+#import <BBAES/BBAES.h>
 #import <CommonCrypto/CommonKeyDerivation.h>
 
 void example();

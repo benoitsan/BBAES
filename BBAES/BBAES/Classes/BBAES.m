@@ -25,9 +25,9 @@ static NSData * digest(NSData *data, unsigned char *(*cc_digest)(const void *, C
 	return [NSData dataWithBytes:md length:sizeof(md)];
 }
 
-static NSData * SHA1Hash(NSData* data) {
-	return digest(data, CC_SHA1, CC_SHA1_DIGEST_LENGTH);
-}
+//static NSData * SHA1Hash(NSData* data) {
+//	return digest(data, CC_SHA1, CC_SHA1_DIGEST_LENGTH);
+//}
 
 static NSData * MD5Hash(NSData* data) {
 	return digest(data, CC_MD5, CC_MD5_DIGEST_LENGTH);
@@ -79,7 +79,7 @@ static NSData * dataFromBase64EncodedString(NSString* string) {
     if (accumulator > 1) outputBytes[++outputLength] = (accumulated[1] << 4) | (accumulated[2] >> 2);
     if (accumulator > 2) outputLength++;
     
-    outputData.length = outputLength;
+    outputData.length = (CFIndex)outputLength;
     return outputLength? outputData: nil;
 }
 

@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14957753186F00E200C62EBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14957752186F00E200C62EBC /* Foundation.framework */; };
+		1495775A186F00E200C62EBC /* BBAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 14957759186F00E200C62EBC /* BBAES.m */; };
+		14957761186F00E300C62EBC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14957760186F00E300C62EBC /* XCTest.framework */; };
+		14957762186F00E300C62EBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14957752186F00E200C62EBC /* Foundation.framework */; };
+		14957764186F00E300C62EBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14957763186F00E300C62EBC /* UIKit.framework */; };
+		14957767186F00E300C62EBC /* libBBAES.iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1495774F186F00E200C62EBC /* libBBAES.iOS.a */; };
+		1495776F186F00E300C62EBC /* BBAESTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1495776E186F00E300C62EBC /* BBAESTests.m */; };
+		1495779A186F03F900C62EBC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14957760186F00E300C62EBC /* XCTest.framework */; };
+		1495779B186F03F900C62EBC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14957789186F03F900C62EBC /* Cocoa.framework */; };
+		1495779E186F03F900C62EBC /* libBBAES.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14957788186F03F900C62EBC /* libBBAES.a */; };
+		149577AD186F042800C62EBC /* BBAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 14957759186F00E200C62EBC /* BBAES.m */; };
+		149577AF186F04D000C62EBC /* BBAES.h in Headers */ = {isa = PBXBuildFile; fileRef = 14957757186F00E200C62EBC /* BBAES.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		149577B1186F04D500C62EBC /* BBAES.h in Headers */ = {isa = PBXBuildFile; fileRef = 14957757186F00E200C62EBC /* BBAES.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		149577B3186F056800C62EBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149577B2186F056800C62EBC /* Foundation.framework */; };
+		149577B4186F074E00C62EBC /* BBAESTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1495776E186F00E300C62EBC /* BBAESTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14957765186F00E300C62EBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14957747186F00E200C62EBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1495774E186F00E200C62EBC;
+			remoteInfo = BBAES;
+		};
+		1495779C186F03F900C62EBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14957747186F00E200C62EBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14957787186F03F900C62EBC;
+			remoteInfo = BBAES;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1495774F186F00E200C62EBC /* libBBAES.iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBBAES.iOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		14957752186F00E200C62EBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14957756186F00E200C62EBC /* BBAES-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BBAES-Prefix.pch"; sourceTree = "<group>"; };
+		14957757186F00E200C62EBC /* BBAES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBAES.h; sourceTree = "<group>"; };
+		14957759186F00E200C62EBC /* BBAES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBAES.m; sourceTree = "<group>"; };
+		1495775F186F00E300C62EBC /* BBAESTests.iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBAESTests.iOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14957760186F00E300C62EBC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		14957763186F00E300C62EBC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1495776A186F00E300C62EBC /* BBAESTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BBAESTests-Info.plist"; sourceTree = "<group>"; };
+		1495776E186F00E300C62EBC /* BBAESTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBAESTests.m; sourceTree = "<group>"; };
+		14957788186F03F900C62EBC /* libBBAES.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBBAES.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		14957789186F03F900C62EBC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		1495778C186F03F900C62EBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1495778D186F03F900C62EBC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1495778E186F03F900C62EBC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		14957799186F03F900C62EBC /* BBAESTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBAESTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		149577B2186F056800C62EBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1495774C186F00E200C62EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14957753186F00E200C62EBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1495775C186F00E300C62EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14957761186F00E300C62EBC /* XCTest.framework in Frameworks */,
+				14957767186F00E300C62EBC /* libBBAES.iOS.a in Frameworks */,
+				14957764186F00E300C62EBC /* UIKit.framework in Frameworks */,
+				14957762186F00E300C62EBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14957785186F03F900C62EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149577B3186F056800C62EBC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14957796186F03F900C62EBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1495779B186F03F900C62EBC /* Cocoa.framework in Frameworks */,
+				1495779A186F03F900C62EBC /* XCTest.framework in Frameworks */,
+				1495779E186F03F900C62EBC /* libBBAES.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14957746186F00E200C62EBC = {
+			isa = PBXGroup;
+			children = (
+				14957754186F00E200C62EBC /* BBAES */,
+				14957778186F022000C62EBC /* Other Sources */,
+				14957768186F00E300C62EBC /* BBAESTests */,
+				14957751186F00E200C62EBC /* Frameworks */,
+				14957750186F00E200C62EBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14957750186F00E200C62EBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1495774F186F00E200C62EBC /* libBBAES.iOS.a */,
+				1495775F186F00E300C62EBC /* BBAESTests.iOS.xctest */,
+				14957788186F03F900C62EBC /* libBBAES.a */,
+				14957799186F03F900C62EBC /* BBAESTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14957751186F00E200C62EBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				149577B2186F056800C62EBC /* Foundation.framework */,
+				14957752186F00E200C62EBC /* Foundation.framework */,
+				14957760186F00E300C62EBC /* XCTest.framework */,
+				14957763186F00E300C62EBC /* UIKit.framework */,
+				14957789186F03F900C62EBC /* Cocoa.framework */,
+				1495778B186F03F900C62EBC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14957754186F00E200C62EBC /* BBAES */ = {
+			isa = PBXGroup;
+			children = (
+				14957757186F00E200C62EBC /* BBAES.h */,
+				14957759186F00E200C62EBC /* BBAES.m */,
+			);
+			name = BBAES;
+			path = BBAES/Classes;
+			sourceTree = "<group>";
+		};
+		14957768186F00E300C62EBC /* BBAESTests */ = {
+			isa = PBXGroup;
+			children = (
+				1495776E186F00E300C62EBC /* BBAESTests.m */,
+				1495776A186F00E300C62EBC /* BBAESTests-Info.plist */,
+			);
+			path = BBAESTests;
+			sourceTree = "<group>";
+		};
+		14957778186F022000C62EBC /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				14957756186F00E200C62EBC /* BBAES-Prefix.pch */,
+			);
+			name = "Other Sources";
+			path = "BBAES/Other Sources";
+			sourceTree = "<group>";
+		};
+		1495778B186F03F900C62EBC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1495778C186F03F900C62EBC /* Foundation.framework */,
+				1495778D186F03F900C62EBC /* CoreData.framework */,
+				1495778E186F03F900C62EBC /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		14957786186F03F900C62EBC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149577B1186F04D500C62EBC /* BBAES.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		149577AE186F04C400C62EBC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149577AF186F04D000C62EBC /* BBAES.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1495774E186F00E200C62EBC /* BBAES.iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14957772186F00E300C62EBC /* Build configuration list for PBXNativeTarget "BBAES.iOS" */;
+			buildPhases = (
+				1495774B186F00E200C62EBC /* Sources */,
+				1495774C186F00E200C62EBC /* Frameworks */,
+				149577AE186F04C400C62EBC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBAES.iOS;
+			productName = BBAES;
+			productReference = 1495774F186F00E200C62EBC /* libBBAES.iOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1495775E186F00E300C62EBC /* BBAESTests.iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14957775186F00E300C62EBC /* Build configuration list for PBXNativeTarget "BBAESTests.iOS" */;
+			buildPhases = (
+				1495775B186F00E300C62EBC /* Sources */,
+				1495775C186F00E300C62EBC /* Frameworks */,
+				1495775D186F00E300C62EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14957766186F00E300C62EBC /* PBXTargetDependency */,
+			);
+			name = BBAESTests.iOS;
+			productName = BBAESTests;
+			productReference = 1495775F186F00E300C62EBC /* BBAESTests.iOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14957787186F03F900C62EBC /* BBAES */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 149577A7186F03F900C62EBC /* Build configuration list for PBXNativeTarget "BBAES" */;
+			buildPhases = (
+				14957784186F03F900C62EBC /* Sources */,
+				14957785186F03F900C62EBC /* Frameworks */,
+				14957786186F03F900C62EBC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBAES;
+			productName = BBAES;
+			productReference = 14957788186F03F900C62EBC /* libBBAES.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		14957798186F03F900C62EBC /* BBAESTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 149577AA186F03F900C62EBC /* Build configuration list for PBXNativeTarget "BBAESTests" */;
+			buildPhases = (
+				14957795186F03F900C62EBC /* Sources */,
+				14957796186F03F900C62EBC /* Frameworks */,
+				14957797186F03F900C62EBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1495779D186F03F900C62EBC /* PBXTargetDependency */,
+			);
+			name = BBAESTests;
+			productName = BBAESTests;
+			productReference = 14957799186F03F900C62EBC /* BBAESTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14957747186F00E200C62EBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Pragmatic Code";
+			};
+			buildConfigurationList = 1495774A186F00E200C62EBC /* Build configuration list for PBXProject "BBAES" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 14957746186F00E200C62EBC;
+			productRefGroup = 14957750186F00E200C62EBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14957787186F03F900C62EBC /* BBAES */,
+				1495774E186F00E200C62EBC /* BBAES.iOS */,
+				14957798186F03F900C62EBC /* BBAESTests */,
+				1495775E186F00E300C62EBC /* BBAESTests.iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1495775D186F00E300C62EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14957797186F03F900C62EBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1495774B186F00E200C62EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1495775A186F00E200C62EBC /* BBAES.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1495775B186F00E300C62EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1495776F186F00E300C62EBC /* BBAESTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14957784186F03F900C62EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149577AD186F042800C62EBC /* BBAES.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14957795186F03F900C62EBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				149577B4186F074E00C62EBC /* BBAESTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14957766186F00E300C62EBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1495774E186F00E200C62EBC /* BBAES.iOS */;
+			targetProxy = 14957765186F00E300C62EBC /* PBXContainerItemProxy */;
+		};
+		1495779D186F03F900C62EBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14957787186F03F900C62EBC /* BBAES */;
+			targetProxy = 1495779C186F03F900C62EBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14957770186F00E300C62EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode51-DP2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"$(BUILT_PRODUCTS_DIR)",
+					"$(OBJROOT)/UninstalledProducts",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14957771186F00E300C62EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode51-DP2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"$(BUILT_PRODUCTS_DIR)",
+					"$(OBJROOT)/UninstalledProducts",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14957773186F00E300C62EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BBAES.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BBAES/Other Sources/BBAES-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = BBAES.iOS;
+				PUBLIC_HEADERS_FOLDER_PATH = BBAES;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		14957774186F00E300C62EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/BBAES.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BBAES/Other Sources/BBAES-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = BBAES.iOS;
+				PUBLIC_HEADERS_FOLDER_PATH = BBAES;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		14957776186F00E300C62EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BBAES/Other Sources/BBAES-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BBAESTests/BBAESTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		14957777186F00E300C62EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BBAES/Other Sources/BBAES-Prefix.pch";
+				INFOPLIST_FILE = "BBAESTests/BBAESTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		149577A8186F03F900C62EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BBAES/Other Sources/BBAES-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = BBAES;
+				PUBLIC_HEADERS_FOLDER_PATH = BBAES;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		149577A9186F03F900C62EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BBAES/Other Sources/BBAES-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = BBAES;
+				PUBLIC_HEADERS_FOLDER_PATH = BBAES;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		149577AB186F03F900C62EBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BBAES/Other Sources/BBAES-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BBAESTests/BBAESTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		149577AC186F03F900C62EBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BBAES/Other Sources/BBAES-Prefix.pch";
+				INFOPLIST_FILE = "BBAESTests/BBAESTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1495774A186F00E200C62EBC /* Build configuration list for PBXProject "BBAES" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14957770186F00E300C62EBC /* Debug */,
+				14957771186F00E300C62EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14957772186F00E300C62EBC /* Build configuration list for PBXNativeTarget "BBAES.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14957773186F00E300C62EBC /* Debug */,
+				14957774186F00E300C62EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14957775186F00E300C62EBC /* Build configuration list for PBXNativeTarget "BBAESTests.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14957776186F00E300C62EBC /* Debug */,
+				14957777186F00E300C62EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		149577A7186F03F900C62EBC /* Build configuration list for PBXNativeTarget "BBAES" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				149577A8186F03F900C62EBC /* Debug */,
+				149577A9186F03F900C62EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		149577AA186F03F900C62EBC /* Build configuration list for PBXNativeTarget "BBAESTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				149577AB186F03F900C62EBC /* Debug */,
+				149577AC186F03F900C62EBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14957747186F00E200C62EBC /* Project object */;
+}
