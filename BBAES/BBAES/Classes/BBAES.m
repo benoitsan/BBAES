@@ -201,7 +201,7 @@ NSUInteger const BBAESSaltDefaultLength = 16; //recommandations suggest at least
 	char converted[([password length] + 1)];
 	[password getCString:converted maxLength:([password length] + 1) encoding: NSISOLatin1StringEncoding];
 
-	int result = CCKeyDerivationPBKDF(kCCPBKDF2, converted, ([password length] + 1), salt.bytes, salt.length, kCCPRFHmacAlgSHA1, (uint)numberOfIterations, derivedKey.mutableBytes, derivedKey.length);
+	__unused int result = CCKeyDerivationPBKDF(kCCPBKDF2, converted, ([password length] + 1), salt.bytes, salt.length, kCCPRFHmacAlgSHA1, (uint)numberOfIterations, derivedKey.mutableBytes, derivedKey.length);
 	NSAssert(result == kCCSuccess, @"Fail to create the salted key");
 	return [derivedKey copy];
 }
