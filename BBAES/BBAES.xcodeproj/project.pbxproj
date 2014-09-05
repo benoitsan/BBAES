@@ -273,7 +273,7 @@
 		14957747186F00E200C62EBC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Pragmatic Code";
 			};
 			buildConfigurationList = 1495774A186F00E200C62EBC /* Build configuration list for PBXProject "BBAES" */;
@@ -366,7 +366,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -403,8 +402,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
@@ -412,7 +410,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -442,8 +439,7 @@
 				);
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				OTHER_LDFLAGS = "-ObjC";
-				SDKROOT = iphoneos;
+				SDKROOT = macosx;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -451,10 +447,10 @@
 		14957773186F00E300C62EBC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				DSTROOT = /tmp/BBAES.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BBAES/Other Sources/BBAES-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = BBAES.iOS;
 				PUBLIC_HEADERS_FOLDER_PATH = BBAES;
 				SKIP_INSTALL = YES;
@@ -464,10 +460,10 @@
 		14957774186F00E300C62EBC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				DSTROOT = /tmp/BBAES.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BBAES/Other Sources/BBAES-Prefix.pch";
-				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = BBAES.iOS;
 				PUBLIC_HEADERS_FOLDER_PATH = BBAES;
 				SKIP_INSTALL = YES;
@@ -477,7 +473,7 @@
 		14957776186F00E300C62EBC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -498,7 +494,7 @@
 		14957777186F00E300C62EBC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -515,6 +511,7 @@
 		149577A8186F03F900C62EBC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -537,6 +534,7 @@
 		149577A9186F03F900C62EBC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
