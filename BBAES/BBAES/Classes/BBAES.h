@@ -14,18 +14,18 @@
  */
 
 typedef NS_ENUM(NSUInteger, BBAESKeySize) {
-    BBAESKeySize128 = 16,
-    BBAESKeySize192 = 24,
+	BBAESKeySize128 = 16,
+	BBAESKeySize192 = 24,
 	BBAESKeySize256 = 32
 };
 
 typedef NS_ENUM(NSUInteger, BBAESEncryptionOptions) {
-    BBAESEncryptionOptionsIncludeIV = 1 <<  0 // the IV is saved along with the ciphertext (the IV is stored as the first block of the encrypted data).
+	BBAESEncryptionOptionsIncludeIV = 1 << 0 // the IV is saved along with the ciphertext (the IV is stored as the first block of the encrypted data).
 };
 
 typedef NS_ENUM(NSUInteger, BBAESDataEncoding) {
-    BBAESDataEncodingBase64,
-    BBAESDataEncodingHex
+	BBAESDataEncodingBase64,
+	BBAESDataEncodingHex
 };
 
 extern NSUInteger const BBAESPBKDF2DefaultIterationsCount;
@@ -97,6 +97,3 @@ extern NSUInteger const BBAESSaltDefaultLength;
 - (NSString *)bb_AESEncryptedStringForIV:(NSData *)iv key:(NSData *)key options:(BBAESEncryptionOptions)options;
 - (NSString *)bb_AESDecryptedStringForIV:(NSData *)iv key:(NSData *)key;
 @end
-
-
-
