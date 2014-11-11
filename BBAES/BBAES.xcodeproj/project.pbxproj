@@ -7,20 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14957753186F00E200C62EBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14957752186F00E200C62EBC /* Foundation.framework */; };
 		1495775A186F00E200C62EBC /* BBAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 14957759186F00E200C62EBC /* BBAES.m */; };
-		14957761186F00E300C62EBC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14957760186F00E300C62EBC /* XCTest.framework */; };
-		14957762186F00E300C62EBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14957752186F00E200C62EBC /* Foundation.framework */; };
-		14957764186F00E300C62EBC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14957763186F00E300C62EBC /* UIKit.framework */; };
 		14957767186F00E300C62EBC /* libBBAES.iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1495774F186F00E200C62EBC /* libBBAES.iOS.a */; };
 		1495776F186F00E300C62EBC /* BBAESTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1495776E186F00E300C62EBC /* BBAESTests.m */; };
-		1495779A186F03F900C62EBC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14957760186F00E300C62EBC /* XCTest.framework */; };
-		1495779B186F03F900C62EBC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14957789186F03F900C62EBC /* Cocoa.framework */; };
 		1495779E186F03F900C62EBC /* libBBAES.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14957788186F03F900C62EBC /* libBBAES.a */; };
 		149577AD186F042800C62EBC /* BBAES.m in Sources */ = {isa = PBXBuildFile; fileRef = 14957759186F00E200C62EBC /* BBAES.m */; };
 		149577AF186F04D000C62EBC /* BBAES.h in Headers */ = {isa = PBXBuildFile; fileRef = 14957757186F00E200C62EBC /* BBAES.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		149577B1186F04D500C62EBC /* BBAES.h in Headers */ = {isa = PBXBuildFile; fileRef = 14957757186F00E200C62EBC /* BBAES.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		149577B3186F056800C62EBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 149577B2186F056800C62EBC /* Foundation.framework */; };
 		149577B4186F074E00C62EBC /* BBAESTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1495776E186F00E300C62EBC /* BBAESTests.m */; };
 /* End PBXBuildFile section */
 
@@ -43,22 +36,14 @@
 
 /* Begin PBXFileReference section */
 		1495774F186F00E200C62EBC /* libBBAES.iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBBAES.iOS.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		14957752186F00E200C62EBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		14957756186F00E200C62EBC /* BBAES-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BBAES-Prefix.pch"; sourceTree = "<group>"; };
 		14957757186F00E200C62EBC /* BBAES.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBAES.h; sourceTree = "<group>"; };
 		14957759186F00E200C62EBC /* BBAES.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBAES.m; sourceTree = "<group>"; };
 		1495775F186F00E300C62EBC /* BBAESTests.iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBAESTests.iOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		14957760186F00E300C62EBC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		14957763186F00E300C62EBC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		1495776A186F00E300C62EBC /* BBAESTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BBAESTests-Info.plist"; sourceTree = "<group>"; };
 		1495776E186F00E300C62EBC /* BBAESTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBAESTests.m; sourceTree = "<group>"; };
 		14957788186F03F900C62EBC /* libBBAES.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libBBAES.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		14957789186F03F900C62EBC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		1495778C186F03F900C62EBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1495778D186F03F900C62EBC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		1495778E186F03F900C62EBC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		14957799186F03F900C62EBC /* BBAESTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBAESTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		149577B2186F056800C62EBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +51,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14957753186F00E200C62EBC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,10 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14957761186F00E300C62EBC /* XCTest.framework in Frameworks */,
 				14957767186F00E300C62EBC /* libBBAES.iOS.a in Frameworks */,
-				14957764186F00E300C62EBC /* UIKit.framework in Frameworks */,
-				14957762186F00E300C62EBC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +66,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				149577B3186F056800C62EBC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,8 +73,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1495779B186F03F900C62EBC /* Cocoa.framework in Frameworks */,
-				1495779A186F03F900C62EBC /* XCTest.framework in Frameworks */,
 				1495779E186F03F900C62EBC /* libBBAES.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,7 +86,6 @@
 				14957754186F00E200C62EBC /* BBAES */,
 				14957778186F022000C62EBC /* Other Sources */,
 				14957768186F00E300C62EBC /* BBAESTests */,
-				14957751186F00E200C62EBC /* Frameworks */,
 				14957750186F00E200C62EBC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -122,19 +99,6 @@
 				14957799186F03F900C62EBC /* BBAESTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		14957751186F00E200C62EBC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				149577B2186F056800C62EBC /* Foundation.framework */,
-				14957752186F00E200C62EBC /* Foundation.framework */,
-				14957760186F00E300C62EBC /* XCTest.framework */,
-				14957763186F00E300C62EBC /* UIKit.framework */,
-				14957789186F03F900C62EBC /* Cocoa.framework */,
-				1495778B186F03F900C62EBC /* Other Frameworks */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		14957754186F00E200C62EBC /* BBAES */ = {
@@ -163,16 +127,6 @@
 			);
 			name = "Other Sources";
 			path = "BBAES/Other Sources";
-			sourceTree = "<group>";
-		};
-		1495778B186F03F900C62EBC /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				1495778C186F03F900C62EBC /* Foundation.framework */,
-				1495778D186F03F900C62EBC /* CoreData.framework */,
-				1495778E186F03F900C62EBC /* AppKit.framework */,
-			);
-			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
