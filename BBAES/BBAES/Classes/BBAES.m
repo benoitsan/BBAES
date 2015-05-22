@@ -145,7 +145,7 @@ NSUInteger const BBAESSaltDefaultLength = 16; //recommandations suggest at least
 
 + (NSString *)encryptedStringFromData:(NSData *)data IV:(NSData *)iv key:(NSData *)key options:(BBAESEncryptionOptions)options {
 	NSData *encryptedData = [BBAES encryptedDataFromData:data IV:iv key:key options:options];
-    NSString *retValue = [encryptedData base64EncodedStringWithOptions: 0];//base64EncodedStringFromData(encryptedData);
+    NSString *retValue = [encryptedData base64EncodedStringWithOptions: 0];
 	return retValue;
 }
 
