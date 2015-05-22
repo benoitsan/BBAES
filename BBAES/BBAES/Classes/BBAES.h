@@ -20,6 +20,7 @@ typedef NS_ENUM(NSUInteger, BBAESKeySize) {
 };
 
 typedef NS_ENUM(NSUInteger, BBAESEncryptionOptions) {
+    BBAESEncryptionOptionsNone = 0,
     BBAESEncryptionOptionsIncludeIV = 1 <<  0 // the IV is saved along with the ciphertext (the IV is stored as the first block of the encrypted data).
 };
 
