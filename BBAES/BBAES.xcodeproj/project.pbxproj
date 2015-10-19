@@ -227,7 +227,7 @@
 		14957747186F00E200C62EBC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0600;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Pragmatic Code";
 			};
 			buildConfigurationList = 1495774A186F00E200C62EBC /* Build configuration list for PBXProject "BBAES" */;
@@ -333,6 +333,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -440,6 +441,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "BBAESTests/BBAESTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pragmaticcode.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -457,6 +459,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BBAES/Other Sources/BBAES-Prefix.pch";
 				INFOPLIST_FILE = "BBAESTests/BBAESTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pragmaticcode.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -520,6 +523,7 @@
 				);
 				INFOPLIST_FILE = "BBAESTests/BBAESTests-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pragmaticcode.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = xctest;
@@ -540,6 +544,7 @@
 				GCC_PREFIX_HEADER = "BBAES/Other Sources/BBAES-Prefix.pch";
 				INFOPLIST_FILE = "BBAESTests/BBAESTests-Info.plist";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pragmaticcode.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				WRAPPER_EXTENSION = xctest;
