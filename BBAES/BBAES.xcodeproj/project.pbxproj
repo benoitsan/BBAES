@@ -355,7 +355,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Applications/Xcode51-DP2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
 					"$(BUILT_PRODUCTS_DIR)",
 					"$(OBJROOT)/UninstalledProducts",
 				);
@@ -398,7 +397,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Applications/Xcode51-DP2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
 					"$(BUILT_PRODUCTS_DIR)",
 					"$(OBJROOT)/UninstalledProducts",
 				);
@@ -418,6 +416,7 @@
 				GCC_PREFIX_HEADER = "BBAES/Other Sources/BBAES-Prefix.pch";
 				PRODUCT_NAME = BBAES.iOS;
 				PUBLIC_HEADERS_FOLDER_PATH = BBAES;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -431,6 +430,7 @@
 				GCC_PREFIX_HEADER = "BBAES/Other Sources/BBAES-Prefix.pch";
 				PRODUCT_NAME = BBAES.iOS;
 				PUBLIC_HEADERS_FOLDER_PATH = BBAES;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -439,11 +439,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BBAES/Other Sources/BBAES-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -453,6 +448,7 @@
 				INFOPLIST_FILE = "BBAESTests/BBAESTests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pragmaticcode.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -461,16 +457,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BBAES/Other Sources/BBAES-Prefix.pch";
 				INFOPLIST_FILE = "BBAESTests/BBAESTests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pragmaticcode.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -520,10 +512,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BBAES/Other Sources/BBAES-Prefix.pch";
@@ -532,7 +520,6 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "BBAESTests/BBAESTests-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pragmaticcode.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
@@ -545,15 +532,10 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BBAES/Other Sources/BBAES-Prefix.pch";
 				INFOPLIST_FILE = "BBAESTests/BBAESTests-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.pragmaticcode.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;

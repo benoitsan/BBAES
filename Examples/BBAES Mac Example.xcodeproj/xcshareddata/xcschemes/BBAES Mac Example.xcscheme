@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1495774E186F00E200C62EBC"
-               BuildableName = "libBBAES.iOS.a"
-               BlueprintName = "BBAES.iOS"
-               ReferencedContainer = "container:BBAES.xcodeproj">
+               BlueprintIdentifier = "14196674169100B4008F58F7"
+               BuildableName = "BBAES Mac Example"
+               BlueprintName = "BBAES Mac Example"
+               ReferencedContainer = "container:BBAES Mac Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,17 +28,16 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1495775E186F00E300C62EBC"
-               BuildableName = "BBAESTests.iOS.xctest"
-               BlueprintName = "BBAESTests.iOS"
-               ReferencedContainer = "container:BBAES.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "14196674169100B4008F58F7"
+            BuildableName = "BBAES Mac Example"
+            BlueprintName = "BBAES Mac Example"
+            ReferencedContainer = "container:BBAES Mac Example.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -52,15 +51,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "1495774E186F00E200C62EBC"
-            BuildableName = "libBBAES.iOS.a"
-            BlueprintName = "BBAES.iOS"
-            ReferencedContainer = "container:BBAES.xcodeproj">
+            BlueprintIdentifier = "14196674169100B4008F58F7"
+            BuildableName = "BBAES Mac Example"
+            BlueprintName = "BBAES Mac Example"
+            ReferencedContainer = "container:BBAES Mac Example.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,6 +70,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "14196674169100B4008F58F7"
+            BuildableName = "BBAES Mac Example"
+            BlueprintName = "BBAES Mac Example"
+            ReferencedContainer = "container:BBAES Mac Example.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
