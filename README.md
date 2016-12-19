@@ -6,7 +6,7 @@ BBAES uses the AES128 algorithm in CBC mode with PKCS#7 padding (128 means the I
 
 ## Requirements
 
-Earliest supported deployment target - iOS 5.0 / Mac OS 10.7
+Earliest supported deployment target - iOS 8.0 / Mac OS 10.10
 
 BBAES uses ARC.
 
